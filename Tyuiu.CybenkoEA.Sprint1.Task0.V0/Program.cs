@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tyuiu.CybenkoEA.Sprint1.Task0.V9.Lib;
 
-using Tyuiu.CybenkoEA.Sprint1.Task0.V0.Lib;
 
-
-namespace Tyuiu.CybenkoEA.Sprint1.Task0.V0
+namespace Tyuiu.CybenkoEA.Sprint1.Task0.V9
 {
     internal class Program
     {
