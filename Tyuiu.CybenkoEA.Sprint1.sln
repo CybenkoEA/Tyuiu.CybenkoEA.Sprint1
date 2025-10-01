@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{8612ED5B-5CBC-47ED-936E-1A82D4FBDC42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.CybenkoEA.Sprint1.Task0.V0", "Tyuiu.CybenkoEA.Sprint1.Task0.V0\Tyuiu.CybenkoEA.Sprint1.Task0.V0.csproj", "{6DF5134C-152E-433F-B15F-1F96AC57B7BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.CybenkoEA.Sprint1.Task0.V9", "Tyuiu.CybenkoEA.Sprint1.Task0.V0\Tyuiu.CybenkoEA.Sprint1.Task0.V9.csproj", "{6DF5134C-152E-433F-B15F-1F96AC57B7BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.CybenkoEA.Sprint1.Task0.V0.Lib", "Tyuiu.CybenkoEA.Sprint1.Task0.V0.Lib\Tyuiu.CybenkoEA.Sprint1.Task0.V0.Lib.csproj", "{187C5D7E-33BD-4E25-A9B8-C5703DF23B1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.CybenkoEA.Sprint1.Task0.V9.Lib", "Tyuiu.CybenkoEA.Sprint1.Task0.V0.Lib\Tyuiu.CybenkoEA.Sprint1.Task0.V9.Lib.csproj", "{187C5D7E-33BD-4E25-A9B8-C5703DF23B1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.CybenkoEA.Sprint1.Task0.V0.Test", "Tyuiu.CybenkoEA.Sprint1.Task0.V0.Test\Tyuiu.CybenkoEA.Sprint1.Task0.V0.Test.csproj", "{CAEB810A-C094-4356-B885-162B8CD13CD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.CybenkoEA.Sprint1.Task0.V9.Test", "Tyuiu.CybenkoEA.Sprint1.Task0.V0.Test\Tyuiu.CybenkoEA.Sprint1.Task0.V9.Test.csproj", "{CAEB810A-C094-4356-B885-162B8CD13CD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

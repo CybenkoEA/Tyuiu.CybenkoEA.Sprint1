@@ -4,9 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using tyuiu.cources.programming.interfaces.Sprint1;
+
 namespace Tyuiu.CybenkoEA.Sprint1.Task0.V0.Lib
 {
-    public class DataService
+    public class DataService : ISprint1Task0V9
     {
+        public double Calculate()
+        {
+            return (9 / 3) * 4 / 3 / 2 + 1;
+
+        }
     }
 }
