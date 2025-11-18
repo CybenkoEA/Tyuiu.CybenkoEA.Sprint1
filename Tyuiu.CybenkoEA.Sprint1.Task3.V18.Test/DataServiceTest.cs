@@ -2,14 +2,18 @@
 namespace Tyuiu.CybenkoEA.Sprint1.Task3.V18.Test
 {
     [TestClass]
-    public class DataServiceTest
+    public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidExpression()
+        public void ValidHowManySquares()
         {
             DataService ds = new DataService();
-            var res = ds.CalculateLogic(10, 10, 5);
-            Assert.AreEqual(4, res);
+            double x = 2;
+            double y = 3;
+            double wait = 1.5;
+            double z = 2;
+            var res = ds.HowManySquares(x, y, z);
+            Assert.AreEqual(wait, res);
         }
     }
 }
