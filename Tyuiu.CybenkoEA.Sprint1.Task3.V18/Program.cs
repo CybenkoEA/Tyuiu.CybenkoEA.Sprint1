@@ -31,19 +31,6 @@ namespace Tyuiu.CybenkoEA.Sprint1.Task3.V18
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            DataService ds = new DataService();
-            double a, b, c;
-            Console.WriteLine("Введите a:");
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите b:");
-            b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите c:");
-            c = Convert.ToDouble(Console.ReadLine());
-
-
-            var result = ds.HowManySquares(a, b, c);
-
-            Console.WriteLine(result);
             Console.ReadKey();
         }
     }
