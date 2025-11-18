@@ -7,15 +7,17 @@ namespace Tyuiu.CybenkoEA.Sprint1.Task3.V18.Lib
     {
         public void Calculate()
         {
-            Console.WriteLine("Введите a:");
+            Console.WriteLine("Введите длину прямоугольника A:");
             double a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите b:");
+
+            Console.WriteLine("Введите ширину прямоугольника B:");
             double b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите c:");
+
+            Console.WriteLine("Введите сторону квадрата C:");
             double c = Convert.ToDouble(Console.ReadLine());
 
             double result = CalculateLogic(a, b, c);
-            Console.WriteLine($"Результат: {result}");
+            Console.WriteLine($"Количество квадратов: {result}");
         }
 
         public double CalculateLogic(double a, double b, double c)
