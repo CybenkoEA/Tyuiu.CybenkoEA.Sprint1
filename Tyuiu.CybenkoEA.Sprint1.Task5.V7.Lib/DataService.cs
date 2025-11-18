@@ -6,9 +6,16 @@ namespace Tyuiu.CybenkoEA.Sprint1.Task5.V7.Lib
     {
         public int AngleToHoursMinutes(double f)
         {
-            double res = (f / 360) * 12;
-            int resultat = Convert.ToInt32(res);
-            return resultat;
+            if (f >= 0 && f < 360)
+            {
+                double h = f / 30.0;
+                int t = (int)h;
+                return t;
+            }
+            else
+            {
+                return -1;
+            }
         }
     }
 }
